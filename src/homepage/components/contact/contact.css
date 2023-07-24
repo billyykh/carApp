@@ -72,7 +72,7 @@
 
 .contact_form-div{
     position: relative;
-    margin-bottom: 2.1rem;
+    margin-bottom: 1.8rem;
     height: 4rem;
 }
 
@@ -89,7 +89,6 @@
     padding: 1.5rem;
     z-index: 1;
 }
-
 
 .contact_form-tag{
     position: absolute;

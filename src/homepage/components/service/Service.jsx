@@ -20,10 +20,10 @@ export default function Service() {
                 {/* First container */}
                 <div className='services_content'>
                     <div>
-                        <i className='uil uil-arrow services_icon'></i>
+                        <i className='uil uil-car services_icon'></i>
                         <h3 className='services_title'>Car <br/> Trade</h3>
                     </div>
-                    <span className='services_button' onClick={()=>toggleTab(1)}>View More <i class="uil uil-arrow-right services_button-icon"></i></span>
+                    {/* <span className='services_button' onClick={()=>toggleTab(1)}>View More <i class="uil uil-arrow-right services_button-icon"></i></span> */}
 
                     
                     <div className={Toggle === 1 ? "services_modal active-modal" : "services_modal"}>
@@ -50,10 +50,10 @@ export default function Service() {
                 {/* Second container */}
                 <div className='services_content'>
                     <div>
-                        <i className='uil uil-brain services_icon'></i>
-                        <h3 className='services_title'>Detail clean<br/>and servicing</h3>
+                        <i className='uil uil-wrench services_icon'></i>
+                        <h3 className='services_title'>Repair<br/>Service</h3>
                     </div>
-                    <span className='services_button' onClick={()=>toggleTab(2)}>View More <i class="uil uil-arrow-right services_button-icon"></i></span>
+                    {/* <span className='services_button' onClick={()=>toggleTab(2)}>View More <i class="uil uil-arrow-right services_button-icon"></i></span> */}
                     
                     <div className={Toggle === 2 ? "services_modal active-modal" : "services_modal"}>
                         <div className='services_modal-content'>
@@ -79,10 +79,10 @@ export default function Service() {
                 {/* Third container */}
                 <div className='services_content'>
                     <div>
-                        <i class="uil uil-letter-japanese-a services_icon"></i>
-                        <h3 className='services_title'>Repair<br/>Service</h3>
+                        <i class="uil uil-car-wash services_icon"></i>
+                        <h3 className='services_title'>Detail clean<br/>and servicing</h3>
                     </div>
-                    <span className='services_button' onClick={()=>toggleTab(3)}>View More <i class="uil uil-arrow-right services_button-icon"></i></span>
+                    {/* <span className='services_button' onClick={()=>toggleTab(3)}>View More <i class="uil uil-arrow-right services_button-icon"></i></span> */}
                     
                     <div className={Toggle === 3 ? "services_modal active-modal" : "services_modal"}>
                         <div className='services_modal-content'>
